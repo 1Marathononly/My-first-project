@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bright-Path Skills helps learners build practical digital skills through flexible online and physical training programs."
+    />
+    <title>Bright-Path Skills</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230d7275'/%3E%3Ctext x='50%25' y='53%25' dominant-baseline='middle' text-anchor='middle' font-size='28' font-family='Arial, Helvetica, sans-serif' font-weight='700' fill='white'%3EBPS%3C/text%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="home.css" />
+    <script src="home.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+
+    <section id="nav">
+      <div class="logo-wrap">
+        <img
+          src="img/FullLogo_Transparent.png"
+          alt="Company Logo"
+          class="logo"
+        />
+      </div>
+
+      <button
+        class="nav-toggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-menu" aria-label="Main navigation">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#myhero1">Courses</a></li>
+          <li><a href="#signup">Sign up</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <header id="hero">
+      <section id="mini">
+        <h1>Bright-Path Skills</h1>
+
+        <p>
+          Want to build practical tech skills but do not know where to start?
+          Look no further. At Bright-Path Digital Academy, we help learners gain
+          real-world digital skills that can drive personal growth and career
+          success.
+        </p>
+        <p>
+          Whether you prefer online learning or a physical classroom experience,
+          our expert tutors are ready to guide you through the skills that matter
+          most in today's digital world.
+        </p>
+        <p>
+          Registration closes 30th November 2026. Visit us at 15, Owonikoko
+          Street, Jaffa, Agbado, Ogun State, or click the button below to get
+          started.
+        </p>
+        <button type="button"><a href="#signup">Sign up</a></button>
+      </section>
+    </header>
+
+    <main id="myhero">
+      <section id="about">
+        <h2>Welcome to Bright-Path Digital Academy</h2>
+        <p>
+          Bright-Path Skills is a digital learning platform designed to help
+          people of all backgrounds build valuable skills for the modern world.
+          Whether you are a beginner or looking to sharpen your existing
+          knowledge, our training programs are built to help you grow with
+          confidence.
+        </p>
+        <p>
+          Our tutors are experienced, knowledgeable, and passionate about
+          helping learners succeed in areas such as web development, data
+          analysis, cybersecurity, automation, and creative digital skills.
+        </p>
+      </section>
+
+      <section id="myhero1">
+        <h2>Our Learning Tracks</h2>
+        <p>
+          We offer practical digital skills for learners of all ages and levels.
+          Some of our most popular training areas include:
+        </p>
+        <ul>
+          <li>Web Development</li>
+          <li>Data Analysis</li>
+          <li>Cyber Security</li>
+          <li>AI Automation</li>
+          <li>Graphic Design</li>
+          <li>And much more</li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- signup -->
+
+    <section id="signup">
+      <h3>Sign up</h3>
+
+      <form class="signup-form">
+        <div class="form-row">
+          <div class="mini">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your full name"
+              required
+            />
+          </div>
+
+          <div class="mini">
+            <label for="age">Age</label>
+            <input
+              type="number"
+              id="age"
+              name="age"
+              placeholder="Your age"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="mini">
+            <label for="phone">Phone No</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Enter your phone number"
+              required
+            />
+          </div>
+
+          <div class="mini">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="form-row single-row">
+          <div class="mini">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Create a strong password"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="form-row single-row">
+          <div class="mini">
+            <label for="experience">Experience / Skills</label>
+            <input
+              type="text"
+              id="experience"
+              name="experience"
+              placeholder="Tell us your current skills or experience"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="mini">
+            <label for="session">Session</label>
+            <select id="session" name="session" required>
+              <option value="">Select a session</option>
+              <option value="online">Online Session - ₦5,000</option>
+              <option value="physical">Physical Session - ₦8,000</option>
+            </select>
+          </div>
+
+          <div class="mini">
+            <label for="course">Course</label>
+            <select id="course" name="course" aria-label="Course" required>
+              <option value="">Choose a course</option>
+              <option value="web-development">Web Development</option>
+              <option value="data-analysis">Data Analysis</option>
+              <option value="cyber-security">Cyber Security</option>
+              <option value="ai-automation">AI Automation</option>
+              <option value="digital-marketing">Digital Marketing</option>
+              <option value="graphic-design">Graphic Design</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="button">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+
+    <div id="success-message" class="success-message" hidden>
+      <div class="success-card">
+        <h3>Signup Successful!</h3>
+
+        <div class="registration-summary">
+          <h4>Registration Summary</h4>
+          <ul>
+            <li>
+              <span>Participant</span><strong id="summary-name">-</strong>
+            </li>
+            <li>
+              <span>Learning Track</span><strong id="summary-track">-</strong>
+            </li>
+            <li>
+              <span>Attendance Mode</span><strong id="summary-mode">-</strong>
+            </li>
+            <li>
+              <span>Calculated Amount</span
+              ><strong id="summary-amount">-</strong>
+            </li>
+          </ul>
+        </div>
+
+        <p>
+          Thank you for choosing Bright-Path Skills. We will contact you soon.
+        </p>
+        <button type="button" class="close-success">Close</button>
+      </div>
+    </div>
+  </body>
+
+  <footer id="Contact" class="site-footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <h3>Bright-Path Skills</h3>
+        <p>
+          Empowering learners with practical digital skills for a brighter and
+          more productive future.
+        </p>
+
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p><span class="icon">📞</span> 07053650944</p>
+          <p>
+            <span class="icon">💬</span>
+            <a
+              href="https://wa.me/2347018342302"
+              target="_blank"
+              rel="noopener noreferrer"
+              >07018342302</a
+            >
+          </p>
+          <p><span class="icon">✉️</span> roddymarathon2@gmail.com</p>
+          <p>
+            <span class="icon">📍</span> 15,Owonikoko str,Jaffa,Agbado, Ogun
+            state
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Bright-Path Skills. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button id="scrollToTopBtn" title="Go to top">⬆️</button>
+</html>
